@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="signUpStyle.css">
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="/action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>회원가입</h1>
+    <hr>
+     <label for="id"><b>아이디</b></label>
+    <input type="text" placeholder="ID" name="id" required>
+
+    <label for="psw"><b>비밀번호</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>비밀번호 확인</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    
+    <label for="email"><b>이메일</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+    
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">취소</button>
+      <button type="submit" class="signupbtn">회원가입</button>
+    </div>
+  </div>
+</form>
+</body>
+</html>

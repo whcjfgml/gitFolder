@@ -1,0 +1,103 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+/* 타이틀 */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* 탑 네비게이션 */
+.topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+/* 탑 네비 링크 */
+.topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* 탑 a 색상 */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* 컬럼묶기*/
+/*오른쪽 컬럼*/
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* 왼쪽컬럼 */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+/* 이미지*/
+.fakeimg {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px;
+}
+
+/* 아티클 */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 100px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
