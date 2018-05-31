@@ -1,0 +1,50 @@
+.header h1{
+	background-color: ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	text-size: 100px;
+}
+.center{
+	align:center;
+	margin: auto;
+	width:800px;
+}
+.list{
+	width:1000px;
+	align:center;
+	margin:auto;
+}
+.event_list{
+	width:800px;
+	margin:auto;
+}
+label{
+	test-align:left;
+}
+textarea{
+	width:100%;
+}
+input[type=text], select {
+	width: 100%;
+    padding: 12px 20px;
+    float:right;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 150px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #c0c0c0;
+}

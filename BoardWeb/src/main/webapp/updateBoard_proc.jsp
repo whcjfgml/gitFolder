@@ -3,7 +3,7 @@
 <%@page contentType="text/html; charset=UTF-8" %>
 
 <%
-	//1. 사용자 입력 정보 추출
+/* 	//1. 사용자 입력 정보 추출
 	request.setCharacterEncoding("utf-8");
 	String title = request.getParameter("title");
 	String content = request.getParameter("content");
@@ -19,5 +19,5 @@
 	boardDAO.insertBoard(vo);
 	
 	//3. 화면 네비게이션
-	response.sendRedirect("getBoardList.jsp");
+	response.sendRedirect("getBoardList.jsp"); */
 %>

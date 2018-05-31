@@ -1,0 +1,188 @@
+.main{
+	box-sizing: border-box;
+}
+.header{
+	margin:auto;
+	width:1000px;		
+}
+.header h1{
+	text-align:left;
+	margin: auto;
+    
+}
+.no{
+	width:1000px;
+	margin:auto;
+}
+.no yes{
+	text-align: center;
+}
+/* 슬라이드 쇼쇼쇼 */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/*영화관 선택*/
+.tab {
+    overflow: hidden;
+    width:1000px;
+    margin:auto;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+}
+
+/* 텝버튼 */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    border-radius: 8px;
+}
+
+/* 텝 배경*/
+.tab button:hover {
+    background-color: #ddd;
+    border-radius: 8px;
+}
+
+/* 바뀌는 배경 */
+.tab button.active {
+    background-color: #ccc;
+      border-radius: 8px;
+    
+}
+
+/* 컨텐츠 배경 */
+.tabcontent {
+	width:1000px;
+	margin:auto;
+    display: none;
+    padding: 6px 12px; 
+    border-top: none;
+}
+/* 넥스트 버튼 */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* 오른쪽에 "다음 버튼"을 배치합니다. */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* 가리킬 때는 검은 색 배경 색을 약간 투명하게 추가합니다. */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* 캡션 텍스트 */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* 숫자 텍스트 (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* 점 도표 표시기 */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* 페이드 애니메이션 */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+/*텝 버튼 영화관이미지 스타일*/
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* 작은 화면에서 텍스트 크기를 줄입니다. */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/*영화관 위치 표시 화면*/
+.my_m{
+	width:1000px;
+	margin:auto;
+}
+.my_m h1{
+	text-align:left;
+}
+ #map {
+        height: 400px;
+        width: 100%;
+       }
